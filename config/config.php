@@ -3,7 +3,7 @@
 define('SITE_NAME', 'GroupMVC');
 
 //App Root
-define('APP_ROOT', dirname(dirname(__FILE__)));
+define('APP_PATH', dirname(dirname(__FILE__)));
 define('URL_ROOT', '/');
 define('URL_SUBFOLDER', '');
 

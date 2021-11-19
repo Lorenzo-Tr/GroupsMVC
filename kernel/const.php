@@ -7,9 +7,11 @@ final class Consts
 {
     // Les constantes relatives aux chemins
 
-    const VIEWS_DIR      = '/views/';
+    const VIEWS_DIR      = '/resources/views/';
 
-    const MODEL_DIR      = '/app/model/';
+    const MODEL_DIR      = '/app/models/';
+
+    const HELPERS_DIR    = '/app/helpers/';
 
     const CONTROLLER_DIR = '/app/controllers/';
 
@@ -30,6 +32,10 @@ final class Consts
     public static function getControllerDir(){
         return self::getRootDir() . self::CONTROLLER_DIR;
     }
+
+    public static function getHelperDir(){
+      return self::getRootDir() . self::HELPERS_DIR;
+  }
 
     public static function getKernelDir(){
       return self::getRootDir() . self::KERNEL_DIR;

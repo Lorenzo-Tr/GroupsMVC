@@ -7,6 +7,7 @@ final class AutoLoad {
     spl_autoload_register('self::loadView');
     spl_autoload_register('self::loadModel');
     spl_autoload_register('self::loadController');
+    spl_autoload_register('self::loadHelper');
   }
 
   public static function loadKernel($S_KernelName){
@@ -29,6 +30,12 @@ final class AutoLoad {
 
   public static function loadController($S_ControllerName){
     $S_file = Consts::getControllerDir() . "$S_ControllerName.php";
+
+    return self::_load($S_file);
+  }
+
+  public static function loadHelper($S_HelperName){
+    $S_file = Consts::getHelperDir() . "$S_HelperName.php";
 
     return self::_load($S_file);
   }
