@@ -1,8 +1,8 @@
 <?php
 
-abstract class Controller{
+class Controller{
   public function view($view, $data = []){
-    $S_fichier = Consts::getViewsDir() . $view . '.php';
+    $S_fichier = VIEWS_PATH . $view . '.php';
 
     extract($data);
     ob_start();
@@ -18,11 +18,11 @@ abstract class Controller{
   }
 
   public function redirect($url, $data = []){
-      header('Location: http://'. $_SERVER['HTTP_HOST'] . '/' . ucfirst($url));
+      header('Location: https://'. $_SERVER['HTTP_HOST'] . '/' . ucfirst($url));
       exit();
   }
 
   public function model($model){
-    require_once Consts::getModelDir() . "$model.php";
+    require_once MODELS_PATH . "$model.php";
   }
 }

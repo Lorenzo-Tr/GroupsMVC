@@ -20,5 +20,5 @@
     <?php endforeach?>
   <?php endif ?>
 </section>
-<a target="_blank" class="to_pdf_btn" href="<?= WEB_URL . "/etudiant/pdf/$id"?>">💾</a>
+<a target="_blank" class="to_pdf_btn" href="<?= WEB_URL . "etudiant/pdf/$id"?>">💾</a>
 <?php $this->view('template/tails', $data)?>

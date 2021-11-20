@@ -8,7 +8,7 @@ class Routing{
 
   public function __construct(){
     $this->route = explode('/', $_GET['route']);
-    $this->controller = empty($this->route[0]) ? 'Etudiant' : $this->route[0];
+    $this->controller = empty($this->route[0]) ? 'Etudiant' : ucfirst($this->route[0]);
     $this->methode = empty($this->route[1]) ? 'index' : $this->route[1];
     $this->data = empty($this->route[2]) ? null : $this->route[2];
 
