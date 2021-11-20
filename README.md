@@ -12,7 +12,7 @@ Confinement oblige, cette année il faut trouver une autre méthode. Vous êtes 
 
 # 📜 Notice
 
-La page d'accueil vous invite à choisir le nombre d'élèves souhaité dans les groupes. Ensuite, il vous est demandé de fournir la liste d'étudiant au format JSON ou CSV (séparé par des `,`). Vous les trouvez sur le Github sous le nom de `list.json` et `lsit.csv`.
+La page d'accueil vous invite à choisir le nombre d'élèves souhaité dans les groupes. Ensuite, il vous est demandé de fournir la liste d'étudiant au format JSON ou CSV (séparé par des `,`). Vous les trouvez sur le Github sous le nom de `list.json` et `list.csv`.
 
 Une fois le formulaire envoyé vous arriveriez sur une page qui vous affiche les groupes formés. Si vous voulez télécharger ce résultat au format PDF il vous suffit de cliquer sur le bouton en bas à droite de la page.
 
