@@ -12,11 +12,12 @@ Confinement oblige, cette année il faut trouver une autre méthode. Vous êtes 
 
 # 📜 Notice
 
-La page d'accueil vous invite à choisir le nombre d'élèves souhaité dans les groupes. Ensuite, il vous est demandé de fournir la liste d'étudiant au format JSON ou CSV (séparé par des `,`).
+La page d'accueil vous invite à choisir le nombre d'élèves souhaité dans les groupes. Ensuite, il vous est demandé de fournir la liste d'étudiant au format JSON ou CSV (séparé par des `,`). Vous les trouvez sur le Github sous le nom de `list.json` et `lsit.csv`.
 
 Une fois le formulaire envoyé vous arriveriez sur une page qui vous affiche les groupes formés. Si vous voulez télécharger ce résultat au format PDF il vous suffit de cliquer sur le bouton en bas à droite de la page.
 
+
 # 😉 Tips
 
-Pour ouvrir le projet git dans visual studio code en ligne il vous suffit d'appuyez sur la touche `.` du pavé numéric ou alors de remplacer l'url `github.com` par `github.dev`
+Pour ouvrir le projet git dans visual studio code en ligne il vous suffit d’appuyer sur la touche `.` du pavé numérique ou alors de remplacer l'URL `github.com` par `github.dev`
 
