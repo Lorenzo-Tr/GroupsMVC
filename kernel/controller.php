@@ -9,6 +9,8 @@ abstract class Controller{
     include $S_fichier;
     $content = ob_get_contents();
     ob_end_flush();
+
+    return $content;
   }
 
   public function css($filename){

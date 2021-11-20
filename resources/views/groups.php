@@ -3,7 +3,7 @@
   <h1 style="width: 100%; text-align: center;">Random Groups</h1>
   <?php if(!empty($A_groups)): ?>
     <?php foreach ($A_groups as $groups => $students): ?>
-      <table> 
+      <table style="page-break-inside:avoid"> 
         <thead>
           <tr>
             <th><?= $groups?></th>
@@ -19,7 +19,6 @@
       </table>
     <?php endforeach?>
   <?php endif ?>
-  </body>
 </section>
-</html>
+<a target="_blank" class="to_pdf_btn" href="<?= WEB_URL . "/etudiant/pdf/$id"?>">💾</a>
 <?php $this->view('template/tails', $data)?>

@@ -6,6 +6,7 @@ define('SITE_NAME', 'GroupMVC');
 define('APP_PATH', dirname(dirname(__FILE__)));
 define('URL_ROOT', '/');
 define('URL_SUBFOLDER', '');
+define('WEB_URL', $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["SERVER_NAME"]);
 
 //DB Params
 // define('DB_HOST', '127.0.0.0');

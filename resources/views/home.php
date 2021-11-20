@@ -1,10 +1,10 @@
 <?php $this->view('template/header', $data)?>
 <section>
-  <h1>Depose your file</h1>
   <?php if(!empty($error)): ?>
     <p><?= $error?></p>
   <?php endif ?>
   <form action="Etudiant/result" method="post" enctype="multipart/form-data">
+    <h1>Depose your file</h1>
     <label for="wantedNbGroups">Desired students number by group</label>
     <select name="wantedNbGroups" id="wantedNbGroups">
       <option value="1">1</option>

@@ -12,7 +12,7 @@ final class GroupsMaker{
     // what team are we adding to?
     $teamidx = 0;
     
-    // loop through people, add them to a team
+    // loop through students, add them to a team
     // when you run out of teams, shuffle the team
     // order for giggles and start back at the first
     // team
